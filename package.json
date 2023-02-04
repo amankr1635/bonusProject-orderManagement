@@ -1,0 +1,24 @@
+{
+  "name": "bonusproject-ordermanagement",
+  "version": "1.0.0",
+  "description": "bonusProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amankr1635/bonusProject-orderManagement.git"
+  },
+  "author": "Aman kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amankr1635/bonusProject-orderManagement/issues"
+  },
+  "homepage": "https://github.com/amankr1635/bonusProject-orderManagement#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  }
+}
