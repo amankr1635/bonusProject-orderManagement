@@ -4,6 +4,7 @@ const customerSchema = new mongoose.Schema(
   {
     title: {
       type: String,
+      required : true,
       enum: ["MR", "MISS", "MRS"]
     },
     name: {
